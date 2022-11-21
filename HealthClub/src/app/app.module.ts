@@ -9,6 +9,7 @@ import { PlaceappointmentsComponent } from './placeappointments/placeappointment
 import { ContactusComponent } from './contactus/contactus.component';
 
 const appRoutes: Routes =[	
+  {path:'',redirectTo:"/Welcome",pathMatch:'full'},
   {path:'Welcome' , component:WelcomeComponent},
   {path:'ViewAppointment' , component:ViewappointmentsComponent},
   {path:'PlaceAppointment' , component:PlaceappointmentsComponent},
